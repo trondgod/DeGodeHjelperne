@@ -1,0 +1,107 @@
+{
+    "dir": "ltr",
+    "lang": "no",
+    "name": "De gode hjelperne",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://degodehjelperneaurelia.azurewebsites.net/",
+    "short_name": "DeGodeHjelperne",
+    "theme_color": "#4e7987",
+    "description": "Hvem hjelper til i hverdagen",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/46d25043-03bf-93c1-8de4-0b45c8848e43.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2738d11a-c33e-2629-0fdb-f3e920266b96.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/657da488-ce4a-6f2a-a1d7-fc3c6815618b.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/fd4fa99c-8bdf-06e5-559b-79ffd522c3e6.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a0bd5fe1-c691-b70f-4d12-642266dfef2b.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5a4d21e5-0c47-4b81-8e14-9d50b7a47678.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/dd0524ac-53b7-e30e-62e4-8a7288ef4e2e.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ddd2e0dd-8b2e-721e-15c1-203d6abd3434.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/58d91c93-3c63-4ff9-624d-e0b60326f434.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/31505551-1296-81bf-7db0-903db801eeae.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1c333b61-94ea-2b91-835a-c1d4ef2748da.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7c77c87c-5605-d3d8-9368-5bfb45e20d92.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1aec7ac9-ca92-b91e-36f3-e13dfd6a4f76.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4eb84095-76c9-478d-1a26-22b7c7cbad40.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/84986193-7680-7e0e-24f7-5867e1d12fb8.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/71474725-3dc1-8f18-340b-9708b4cf4d91.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4297cf78-9d33-3541-d8a6-76075214c2f3.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b4a48ccb-653c-0393-4c6d-d11ef39ad9f6.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#e1f0ff"
+}

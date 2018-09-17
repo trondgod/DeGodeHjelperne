@@ -1,0 +1,10 @@
+﻿<template>
+    <h1>Innstillinger</h1>
+
+    <p if.bind="pushIsSupported">Du kan velge å motta viktige varsler</p>
+    <p if.bind="!pushIsSupported">Din nettleserversjon mangler støtte for å motta varsler</p>
+
+    <input type="checkbox" checked.bind="usePush" title="motta push varsler" id="subscribePushNotifications" if.bind="pushIsSupported" 
+           click.delegate="subscribeToPushNotifications()"> Motta varsler</input>
+
+</template>

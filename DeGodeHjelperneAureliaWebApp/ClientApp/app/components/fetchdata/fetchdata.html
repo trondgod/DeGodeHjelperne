@@ -1,0 +1,24 @@
+<template>
+    <h1>Hjelperne til Aurelia</h1>
+
+    <p if.bind="!helpers"><em>Henter de...</em></p>
+
+    <table if.bind="helpers" class="table">
+        <thead>
+            <tr>
+                <th>Navn</th>
+                <th>Kommer</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr repeat.for="helper of helpers">
+                <td>${ helper.name }</td>
+                <td>${ helper.nextTimeFormatted }</td>
+                <td>${ helper.summary }</td>
+                <td>${ helper.relation }</td>
+            </tr>
+        </tbody>
+    </table>
+</template>

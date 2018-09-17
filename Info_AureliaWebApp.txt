@@ -1,0 +1,51 @@
+
+dotnet new --install "Microsoft.AspNetCore.SpaTemplates::*"
+dotnet new aurelia
+dotnet run
+	Ved feil prøv:
+	npm link webpack
+	npm install
+	restart VS
+	(https://github.com/sgbj/generator-aspnetcore-angular2/issues/23)
+
+- Publish to Azure with tieto account, your subscription and resource group. 
+http://degodehjelperneaurelia.azurewebsites.net/
+
+
+- Oppgrader til en progressiv web app
+  https://bartvanuden.azurewebsites.net/2017/12/14/from-spa-to-pwa-with-asp-net-core-2-0-and-aurelia/
+  https://www.pwabuilder.com/
+
+  https://bartvanuden.azurewebsites.net/2018/01/23/push-notifications-to-your-pwa-with-asp-net-core-2-0-and-aurelia/
+  npm install -g web-push
+  web-push generate-vapid-keys
+		Public Key:
+		BO5icnbJ0VJovahZ0W-uOUbtu-X5NgwopZiXQB16ui0clwBzyjAPOXys7asc0usbP6YoNydpBvP2Xc7ISMSKzAQ
+		Private Key:
+		4cL-xM-WSDFJiYq9w8L0tS8sNpXf55HN8_k9vEo6Gts
+  MS Secrect manager
+  https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?tabs=visual-studio
+
+Er her:
+Kart
+https://mikhail.io/2016/03/aurelia-map-component-with-leaflet/
+
+Send ut et push varsel til hjelperne. Aurelia har falt ute. Vaktsentralen svarer henne og sender ut en ambulanse.
+Legg til url til ikon
+Husk push varsel på i database og bruk evt. denne innstillingen for gjeldende bruker.
+
+Bygg inn en "mine hjelpere" kalender slik at jeg og mine hjelpere 
+ser at jeg har vergedekning for døgnet og uka som kommer
+ - https://cerkit.com/2017/08/11/aureliacalendarpart1/
+
+ Liste av mine verger med kontaktinfo og hvor de befinner seg.
+
+ Legg til kart med posisjon
+
+
+
+ Tech background
+ https://aurelia.io/
+ https://developers.google.com/web/ilt/pwa/introduction-to-service-worker-slides
+ https://developers.google.com/web/fundamentals/web-app-manifest/
+
